@@ -80,30 +80,3 @@ class Benchmark:
                 print("{0}\t{1:3.2f} — {2:3.2f}".format( 1+i, 
                       mean, statistics.stdev(timings, mean)
                       if i >1 else 0))
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
