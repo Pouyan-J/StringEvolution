@@ -9,13 +9,13 @@ class StringEvolutionTests(unittest.TestCase):
 
     def test_hello(self):
         target = "hello"
-        print('\n----------------------------------------------------------------------')
+        print('\n' + '-' * 75)
         print('Running test case: \"' + target + '\":\n')
         self.string_evolution(target)
 
     def test_random(self):
         target = generate_random_string(50)
-        print('\n----------------------------------------------------------------------')
+        print('\n' + '-' * 75)
         print('Running test case: \"' + target + '\":\n')
         self.string_evolution(target)
 

@@ -67,7 +67,7 @@ class Benchmark:
         stdout = sys.stdout
         print('Running benchmark test for {0} times:\n'.format(runs))
         print('#\tx̄\tσ²')
-        print('————————————————————')
+        print('—' * 20)
         for i in range(runs):
             sys.stdout = None
             startTime = time.time()
